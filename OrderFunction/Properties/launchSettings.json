@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "OrderFunction": {
+      "commandName": "Project",
+      "commandLineArgs": "host start --port 7072"
+    }
+  }
+}

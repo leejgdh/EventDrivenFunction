@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33110.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaymentFunction", "PaymentFunction\PaymentFunction.csproj", "{DF76C48D-04FB-46C2-8942-E40DFEDADA2D}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "SharedProject", "SharedProject\SharedProject.shproj", "{D097D1A1-30D2-4C61-A0D4-C7AEED66F874}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrderFunction", "OrderFunction\OrderFunction.csproj", "{FD1EAA1A-A34F-48EE-8EB0-31B8732E8FFC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SlackSDK", "SlackSDK\SlackSDK.csproj", "{775E5284-7904-40B1-BA97-78BFC654446A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DF76C48D-04FB-46C2-8942-E40DFEDADA2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF76C48D-04FB-46C2-8942-E40DFEDADA2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF76C48D-04FB-46C2-8942-E40DFEDADA2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF76C48D-04FB-46C2-8942-E40DFEDADA2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD1EAA1A-A34F-48EE-8EB0-31B8732E8FFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD1EAA1A-A34F-48EE-8EB0-31B8732E8FFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD1EAA1A-A34F-48EE-8EB0-31B8732E8FFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD1EAA1A-A34F-48EE-8EB0-31B8732E8FFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{775E5284-7904-40B1-BA97-78BFC654446A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{775E5284-7904-40B1-BA97-78BFC654446A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{775E5284-7904-40B1-BA97-78BFC654446A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{775E5284-7904-40B1-BA97-78BFC654446A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {14EE41CF-344C-413D-A3B6-A7BFE58FE194}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		SharedProject\SharedProject.projitems*{d097d1a1-30d2-4c61-a0d4-c7aeed66f874}*SharedItemsImports = 13
+		SharedProject\SharedProject.projitems*{df76c48d-04fb-46c2-8942-e40dfedada2d}*SharedItemsImports = 5
+		SharedProject\SharedProject.projitems*{fd1eaa1a-a34f-48ee-8eb0-31b8732e8ffc}*SharedItemsImports = 5
+	EndGlobalSection
+EndGlobal

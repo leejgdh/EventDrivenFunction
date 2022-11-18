@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects Condition="'$(MSBuildVersion)' == '' Or '$(MSBuildVersion)' &lt; '16.0'">$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>d097d1a1-30d2-4c61-a0d4-c7aeed66f874</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>SharedProject</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Helper\ServiceBusMessageHelper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\DTO\Base\IServiceBusEventBase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\DTO\ServiceBusMessage\Payment\RequestCreatePaymentMsg.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="$(MSBuildThisFileDirectory)Models\DTO\ServiceBusMessage\Payment\" />
+  </ItemGroup>
+</Project>
