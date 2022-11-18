@@ -45,13 +45,11 @@ namespace PaymentFunction.Triggers
                 OrderId = req.OrderId
             };
 
-            //db 贸府
-
             sb_msg.PaymentId = Guid.NewGuid();
 
             await _serviceBusClient.SendMessageAsync(sb_msg);
 
-            log.LogInformation($"搬力 酒捞叼 {sb_msg.PaymentId}锅 搬力 肯丰 贸府");
+            log.LogInformation("瓴办牅觳橂Μ");
 
             SlackMessage message = new SlackMessage(EAttachmentColor.Success, "title", "value");
 
